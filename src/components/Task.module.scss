@@ -1,0 +1,11 @@
+.task {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
+  margin: 10px 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  cursor: grab;
+}

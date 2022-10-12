@@ -1,0 +1,35 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  z-index: 50;
+  min-width: 200px;
+}
+
+.backdrop {
+  position: fixed;
+  background: black;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.footer {
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+.modal p {
+  margin: 5px 0;
+}
+
+.modal input {
+  margin: 2px;
+}

@@ -1,0 +1,11 @@
+.board {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  margin-top: 100px;
+  padding: 0 60px;
+
+  display: flex;
+  flex-direction: column;
+}
